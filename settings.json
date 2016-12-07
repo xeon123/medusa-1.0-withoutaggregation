@@ -1,0 +1,26 @@
+{
+    "blocksize": 64000000,
+    "clusters": [
+        "medusa1-blank1",
+        "medusa1-blank2",
+        "medusa1-blank3"
+    ],
+    "digests_fault": false,
+    "execution_mode": "serial",
+    "faults": 1,
+    "faults_left": 1,
+    "hdfs_port": 9000,
+    "httpfs_port": 14000,
+    "httpfs_used": false,
+    "local_copy": false,
+    "namenode_address": "172.16.100.5",
+    "packet_size": [
+        "400",
+        "800",
+        "1200"
+    ],
+    "ranking_scheduler": "prediction",
+    "relaunch_job_same_cluster": false,
+    "digest_command": "-text",
+    "verbose": false
+}
